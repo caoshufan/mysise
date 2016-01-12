@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    android:elevation="3dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/header"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@drawable/ic_header"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/border_color"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:text=""
+            android:textSize="20sp"
+            android:paddingTop="15dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_toEndOf="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/id"
+            android:text=""
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/name"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/clas"
+            android:layout_toEndOf="@+id/header"
+            android:layout_below="@+id/name"
+            android:paddingEnd="12dp"
+            android:paddingTop="10dp"
+            android:paddingStart="12dp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/emai"
+            android:text="Email:"
+            android:paddingStart="12dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toRightOf="@+id/emai"
+            android:paddingStart="3dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/header"
+            android:text=""
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/teacher"
+            android:layout_below="@+id/clas"
+            android:layout_alignEnd="@+id/clas"
+            android:paddingStart="3dp"
+            android:paddingTop="12dp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="班主任:"
+            android:visibility="gone"
+            android:id="@+id/tech"
+            android:paddingTop="12dp"
+            android:layout_below="@+id/clas"
+            android:layout_toStartOf="@+id/teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/instructor"
+            android:layout_below="@+id/teacher"
+            android:layout_alignEnd="@+id/clas"
+            android:paddingStart="3dp"
+            android:paddingTop="3dp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/insturc"
+            android:text="辅导员:"
+            android:layout_below="@+id/tech"
+            android:paddingTop="3dp"
+            android:layout_toStartOf="@+id/teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

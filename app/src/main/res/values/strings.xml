@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MySise</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_subject">DetailSubjectActivity</string>
+    <string name="large_text">
+        Objective-C语言是C语言的一个扩展集，大多数具备Mac OS X外观的应用程序都是使用该语言开发的。它以C语言为基础，添加了一些微妙但意义重大的特性。 　　本课程是数字媒体技术（移动互联网游戏开发）专业的学生在已经学习了《C语言程序设计》后的第一门专业基础课。通过对本课程的学习，使学生全面、系统地掌握主流移动互联网游戏开发的基本理论、基本概念和基本方法，尤其是从面向过程编程思想升华为面向对象的编程思想，为进一步学习移动互联网游戏开发的综合应用，尤其是移动游戏开发类的专业课程及将来从事相关工作奠定基础。
+    </string>
+    <string name="title_activity_schelar">SchelarActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">学号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_open_subject">OpenSubjectActivity</string>
+    <string name="title_activity_teacher_main">TeacherMainActivity</string>
+    <string name="title_activity_teacher_login">Sign in</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
